@@ -11,7 +11,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:5174', // Adjust based on frontend
+  origin: 'https://frontend-blog-uisp-o0gejeeca-pamilairene-ms-projects.vercel.app', // Adjust based on frontend
 }));
 
 connectDB();
